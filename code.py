@@ -30,10 +30,10 @@ emotion_to_song = {
     "party": "https://www.youtube.com/watch?v=TFTnJzWRTJ8"
 }
 
-# Input
+# taking Input
 emoji = input("Enter an emoji: ")
 
-# Find emotion
+# Finding emotion
 found = False
 
 for emotion, emojis in emoji_to_emotion.items():
